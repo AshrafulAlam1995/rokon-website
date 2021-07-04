@@ -5,7 +5,7 @@ body{
 .orange-color{
   color: orange;
 }
-section{
+.flexible-container{
   display: flex;
   margin-bottom: 120px;
 }
@@ -32,4 +32,28 @@ section{
   background-repeat: no-repeat;
   background-position: right;
 }
-
+.color-blue{
+  color: blue;
+}
+.experience-area{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+}
+.experiences-item{
+  width: 44%;
+  margin-left: 3%;
+  margin-right: 3%;
+  box-shadow: 10px 10px 25px blue;
+  padding-left: 5px;
+  border-radius: 10px;
+}
+#job-item{
+  border-left: solid 7px blue;
+}
+#business-item{
+  border-left: 5px solid blue;
+}
+footer{
+  color: blue;
+  text-align: center;
+}
